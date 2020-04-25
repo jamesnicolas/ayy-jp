@@ -5,35 +5,3 @@
 body {
     background-color: #e4e4e4;
 }
-
-.maintable {
-    width: 85%;
-}
-
-.maintable,
-.missingtable {
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(48, 1fr);
-    text-align: left;
-}
-
-.maintable>*,
-.missingtable>* {
-    text-align: center;
-    vertical-align: top;
-    margin: 1px;
-    line-height: 1.5em;
-}
-
-.key {
-    display: inline-block;
-    width: 3em
-}
-
-a,
-a:visited {
-    color: #000;
-    text-decoration: none;
-}
