@@ -1,7 +1,6 @@
-import fileinput
-
-for line in fileinput.input("mixups.txt", inplace=True):
-    words = line.split()
-    words.sort()
-    output = '　'.join(words)
-    print(output)
+with open('mixups.txt', encoding='utf8') as f:
+    for line in f:
+        words = line.split()
+        words.sort()
+        output = '　'.join(words)
+        print(output)
