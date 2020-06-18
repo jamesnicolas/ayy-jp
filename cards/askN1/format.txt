@@ -3,7 +3,7 @@
 #Vocabulary-Kana
 #Definition-English
 #Definition-Japanese
-#Vocabulary-Audio
+$inc_sound#Vocabulary-Audio
 #Vocabulary-Pos
 #Caution
 #Expression
@@ -15,8 +15,8 @@
 #Sentence-Image
 #Notes
 #Core-Index
-#Optimized-Voc-Index
-#Ask-N1-Index
-#Show-JJ
+$inc#Optimized-Voc-Index
+$inc#Ask-N1-Index
+true#Show-JJ
 #Show-JE
 #Tags
