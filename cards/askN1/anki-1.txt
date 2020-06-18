@@ -1,0 +1,2 @@
+# This file is auto generated.
+身内;身内[みうち];みうち;relative;親戚、親族;[sound:0001.mp3];名;;身内に医者がいると、何かと安心だ;身内[みうち]に 医者[いしゃ]がいると、 何[なに]かと 安心[あんしん]だ;みうちにいしゃがいると、なにかとあんしんだ;It's reassuring to have a doctor in the family.;;;;;;6001;1;true;;askN1;
