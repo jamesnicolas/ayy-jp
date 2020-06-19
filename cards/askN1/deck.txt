@@ -1,2 +1,4 @@
-# This file is auto generated.
-身内;身内[みうち];みうち;relative;親戚、親族;[sound:0001.mp3];名;;身内に医者がいると、何かと安心だ;身内[みうち]に 医者[いしゃ]がいると、 何[なに]かと 安心[あんしん]だ;みうちにいしゃがいると、なにかとあんしんだ;It's reassuring to have a doctor in the family.;;;;;;6001;1;true;;askN1;
+# J-J cards. This file is auto generated.
+身内;身内[みうち];みうち;relative;親戚、親族;[sound:0001.mp3];名;;身内に医者がいると、何かと安心だ;身内[みうち]に 医者[いしゃ]がいると、 何[なに]かと 安心[あんしん]だ;みうちにいしゃがいると、なにかとあんしんだ;It's reassuring to have a doctor in the family.;;;;;;6001;1;true;;askn1;
+肉親;肉親[にくしん];にくしん;immediate family;直接の家族;[sound:0002.mp3];名;;父が他界し、肉親はあにだけになった。;父[ちち]が 他界[たいし]し、 肉親[にくしん]は 兄[あに]だけになった。;;My father passed away and all that is left of my immediate family is my big brother.;;;;;;6002;2;true;;askn1;
+配偶者;配偶者[はいぐうしゃ];はいぐうしゃ;spouse;夫か妻;[sound:0003.mp3];名;;配偶者の有無をこちらに書いてください。;配偶者[はいぐうしゃ]の 有無[うむ]をこちらに 書[か]いてください;;Please write down here whether you have a spouse or not.;;;;;;6003;3;true;;askn1;
