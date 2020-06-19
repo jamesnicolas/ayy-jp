@@ -1,6 +1,6 @@
-#Vocabulary-Kanji
+$kanji(Vocabulary-Furigana)#Vocabulary-Kanji
 #Vocabulary-Furigana
-#Vocabulary-Kana
+$kana(Vocabulary-Furigana)#Vocabulary-Kana
 #Definition-English
 #Definition-Japanese
 $inc_sound#Vocabulary-Audio
