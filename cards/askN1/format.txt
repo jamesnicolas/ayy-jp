@@ -19,4 +19,4 @@ $inc#Optimized-Voc-Index
 $inc#Ask-N1-Index
 true#Show-JJ
 #Show-JE
-#Tags
+$copy#Tags

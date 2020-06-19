@@ -1,6 +1,8 @@
 import os
 import sys
 import glob
+import subprocess
+import time
 
 ops = {
     "$inc":lambda x: str(int(x)+1),
@@ -46,6 +48,9 @@ with open('format.txt', encoding='utf8') as format_file:
         value = op(value,prev_value)
         output += "#".join([value,field_name])
 
-with open('{}.ankle'.format(max_num+1), 'w+', encoding='utf8') as new_file:
+new_file_name = '{}.ankle'.format(max_num+1)
+with open(new_file_name, 'w+', encoding='utf8') as new_file:
     if (output != ""):
         new_file.write(output)
+
+process = subprocess.Popen(["code", os.path.realpath(new_file_name)], shell=True)
