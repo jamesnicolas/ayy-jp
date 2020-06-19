@@ -1,4 +1,7 @@
 # J-J cards. This file is auto generated.
 身内;身内[みうち];みうち;relative;親戚、親族;[sound:0001.mp3];名;;身内に医者がいると、何かと安心だ;身内[みうち]に 医者[いしゃ]がいると、 何[なに]かと 安心[あんしん]だ;みうちにいしゃがいると、なにかとあんしんだ;It's reassuring to have a doctor in the family.;;;;;;6001;1;true;;askn1;
 肉親;肉親[にくしん];にくしん;immediate family;直接の家族;[sound:0002.mp3];名;;父が他界し、肉親はあにだけになった。;父[ちち]が 他界[たいし]し、 肉親[にくしん]は 兄[あに]だけになった。;;My father passed away and all that is left of my immediate family is my big brother.;;;;;;6002;2;true;;askn1;
-配偶者;配偶者[はいぐうしゃ];はいぐうしゃ;spouse;夫か妻;[sound:0003.mp3];名;;配偶者の有無をこちらに書いてください。;配偶者[はいぐうしゃ]の 有無[うむ]をこちらに 書[か]いてください;;Please write down here whether you have a spouse or not.;;;;;;6003;3;true;;askn1;
+配偶者;配偶者[はいぐうしゃ];はいぐうしゃ;spouse;夫か妻、結婚してるパートナー;[sound:0003.mp3];名;;配偶者の有無をこちらに書いてください。;配偶者[はいぐうしゃ]の 有無[うむ]をこちらに 書[か]いてください;;Please write down here whether you have a spouse or not.;;;;;;6003;3;true;;askn1;
+家系;家系[かけい];かけい;family line;家族の系統;[sound:0004.mp3];名;;自分のルーツを知るための、家系図を作った;自分[じぶん]のルーツを 知[し]るための、 家系図[家系図]を作った;;I created a family tree to learn about my roots.;;;;;;6004;4;true;;askn1;
+おふくろ;おふくろ;おふくろ;mom;母親;[sound:0005.mp3];名;;A: 今の電話、誰から？　B:　おふくろ;A: 今[いま]の 電話[でんわ]、 誰[だれ]から？　B:　おふくろ;;A: Who was that on the phone? B: My mom.;;;;;;6005;5;true;;askn1;
+おやじ;おやじ;おやじ;dad;父親[ちちおや];[sound:0006.mp3];めい;;息子：「おやじ、まだ帰ってないの？」母：「今日も飲んでるんじゃない？」;息子[]：「おやじ、まだ 帰[か]ってないの？」 母[はは]：「 今日[きょう]も 飲[の]んでるんじゃない？」;;Son: "Dad's not home yet?" Mother:"He's probably out drinking.";;;;;;6006;6;true;;askn1;
