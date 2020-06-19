@@ -6,8 +6,8 @@
 $inc_sound#Vocabulary-Audio
 #Vocabulary-Pos
 #Caution
-#Expression
-#Reading
+#Sentence-Kanji
+#Sentence-Furigana
 #Sentence-Kana
 #Sentence-English
 #Sentence-Clozed
