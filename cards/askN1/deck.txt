@@ -5,3 +5,10 @@
 家系;家系[かけい];かけい;family line;家族の系統;[sound:0004.mp3];名;;自分のルーツを知るための、家系図を作った;自分[じぶん]のルーツを 知[し]るための、 家系図[家系図]を作った;;I created a family tree to learn about my roots.;;;;;;6004;4;true;;askn1;
 おふくろ;おふくろ;おふくろ;mom;母親;[sound:0005.mp3];名;;A: 今の電話、誰から？　B:　おふくろ;A: 今[いま]の 電話[でんわ]、 誰[だれ]から？　B:　おふくろ;;A: Who was that on the phone? B: My mom.;;;;;;6005;5;true;;askn1;
 おやじ;おやじ;おやじ;dad;父親[ちちおや];[sound:0006.mp3];めい;;息子：「おやじ、まだ帰ってないの？」母：「今日も飲んでるんじゃない？」;息子[]：「おやじ、まだ 帰[か]ってないの？」 母[はは]：「 今日[きょう]も 飲[の]んでるんじゃない？」;;Son: "Dad's not home yet?" Mother:"He's probably out drinking.";;;;;;6006;6;true;;askn1;
+よこす;よこす;よこす;send;送る;[sound:0007.mp3];動;;週に一度母親が電話よこす;週[しゅう]に 一度[いちど] 母親[ははおや]が 電話[でんわ]よこす;;My mother calls me once a week.;;;;;;6007;7;true;;askn1;
+亭主;亭主[ていしゅ];ていしゅ;husband;旦那、夫;[sound:0009.mp3];名;;A: ご主人、単身赴任なの？<br> B: 亭主は元気で留守がいいって言うじゃない。;A: ご 主人[しゅじん]、 単身赴任[たんしんふにん]なの？<br> B:  亭主[ていしゅ]は 元気[げんき]で 留守[るす]がいいって 言[い]うじゃない。;;A: Is your husband away on assignment alone? <br> B: As the saying goes, "Best that the husband is away and well.";;;;;;6009;9;true;;askn1;
+温もり;温[ぬく]もり;ぬくもり;warmth;暖[あたた]かさ、ポカポカ;[sound:0010.mp3];名;;結婚したら、温もりのある家庭を作りたい;結婚[けっこん]したら、温[ぬく]もりのある家庭[かてい]を作りたい;;I want to get married and build a household full of warmth.;;;;;;6010;10;true;;askn1;
+授かる;授[さず]かる;さずかる;be given;もらう;[sound:0011.mp3];;;姉夫婦が女の子を授かった。;姉[あね] 夫婦[ふうふ]が 女の子[おんなのこ]を 授[さず]かった。;;My elder sister and her husband are having a baby girl.;;;;;;6011;11;true;;askn1;
+しぐさ;しぐさ;しぐさ;gesture;身振り[みぶり];[sound:0014.mp3];名;;娘のしぐさは、私によく似ているらしい。;娘[あね]のしぐさは、私[わたし]によく 似[に]ているらしい。;;My daughter's gestures are apparently very much like mine.;;;;;;6014;14;true;;askn1;
+愛しい;愛[いと]しい;いとしい;adorable;可愛[かわ]い、 可愛[かわ]らしい、 素敵[すてき];[sound:0015.mp3];イ形;;子供が寝ている姿が、愛しくてたまらない;子供[こども]が 寝[ね]ている姿[すがた]が、愛[いと]しくてたまらない;;The sight of a sleeping child is so adorable.;;;;;;6015;15;true;;askn1;
+懐く;懐[なつ]く;なつく;be attached;慣[な]れ 親[した]しむ、 抱[いだ]く;[sound:0016.mp3];動;;末っ子父親になかなか懐かない;末っ子[すえっこ]は 父親[ちちおや]になかなか 懐[なつ]かない;;The youngest child is having difficulty becoming attached to the father.;;;;;;6016;16;true;;askn1;
