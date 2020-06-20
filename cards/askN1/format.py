@@ -1,7 +1,8 @@
 import os
 import glob
 import sys
-
+from dataclasses import dataclass
+from typing import Callable
 """
 format.py reads all the .ankle files, puts them into memory, then processes them sequentially.
 Files need to be processed sequentially because some of the fields depend on their previous inputs.
@@ -11,13 +12,26 @@ Files need to be processed sequentially because some of the fields depend on the
 class field():
     index: int
     name: str
-    func: str
+    param: str = ""
+    func: Callable[[str,str], str] = lambda x,y: x
 
+funcs = {
+    "cat": lambda x,y: x,
+    "kanji": lambda x,y: kanji(x),
+    "copy": lambda x,y: y,
+    "inc_int": lambda x,y: str(int(y) + 1),
+    "inc_sound": lambda x,y:
+}
 fields = [
     field(
         0,
         "Vocabulary-Kanji",
-        "$kanji(Vocabulary-Furigana)",
+        "$Vocabulary-Furigana",
+        "kanji",
+    ),
+    field(
+        1,
+        "Vocabulary-Furigana",
     ),
     "Vocabulary-Furigana":{"index":1},
     "Vocabulary-Kana": {
