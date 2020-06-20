@@ -49,7 +49,7 @@ class card():
         rules = {
             "Vocabulary-Kanji": kanji(self.fields["Vocabulary-Furigana"]),
             "Vocabulary-Kana": kana(self.fields["Vocabulary-Furigana"]),
-           # "Sentence-Kana": kana(self.fields["Sentence-Furigana"]),
+            "Sentence-Kana": kana(self.fields["Sentence-Furigana"]),
             "Sentence-Kanji": kanji(self.fields["Sentence-Furigana"]),
             "Vocabulary-Audio": "[sound:{:04d}.mp3]".format(self.index),
             "Optimized-Voc-Index": "{:04d}".format(6000 + self.index),
