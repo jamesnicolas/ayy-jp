@@ -49,11 +49,11 @@ class card():
         rules = {
             "Vocabulary-Kanji": kanji(self.fields["Vocabulary-Furigana"]),
             "Vocabulary-Kana": kana(self.fields["Vocabulary-Furigana"]),
-            "Sentence-Kana": kana(self.fields["Sentence-Furigana"]),
+           # "Sentence-Kana": kana(self.fields["Sentence-Furigana"]),
             "Sentence-Kanji": kanji(self.fields["Sentence-Furigana"]),
             "Vocabulary-Audio": "[sound:{:04d}.mp3]".format(self.index),
             "Optimized-Voc-Index": "{:04d}".format(6000 + self.index),
-            "Ask-N1-Index": "{:04d}".format(self.index),
+            "Ask-N1-Index": "{:d}".format(self.index),
             "Show-JJ": "true",
         }
         self.fields.update(rules)
@@ -61,7 +61,9 @@ class card():
 
     @classmethod
     def from_file(cls, filename):
+        index = int(filename.split(".")[0])
         c = cls()
+        c.index = index
         # add all present fields
         with open(filename, encoding='utf8') as f:
             for line in f:
