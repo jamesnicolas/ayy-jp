@@ -64,9 +64,11 @@ class card():
         c = cls()
         # add all present fields
         with open(filename, encoding='utf8') as f:
-            for line in enumerate(f):
+            for line in f:
                 parts = line.split("#")
                 c.fields[parts[1]] = parts[0]
+                if (len(parts[1]) == 20):
+                    print(parts[1])
         c.special_fields()
         return c
     
@@ -79,9 +81,10 @@ class card():
     #scd is semi-colon delimited format
     def to_scd(self):
         scd = ""
-        for field in self.fields:
-            scd += field["value"]
+        for i in self.fields:
+            scd += self.fields[i]
             scd += ";"
+        return scd
 
 # get all .ankle files and sort them
 ankles = []
