@@ -57,7 +57,20 @@ class card():
             "Show-JJ": "true",
         }
         self.fields.update(rules)
+        self.validate()
         return self
+    
+    # catch possible formatting issues with our furigana
+    def validate(self):
+        errors = []
+        if (len(self.fields["Vocabulary-Kanji"]) > len(self.fields["Vocabulary-Kana"])):
+            errors += ["Vocabulary-Kanji","Vocabulary-Kana"]
+        if (len(self.fields["Sentence-Kanji"]) > len(self.fields["Sentence-Kana"])):
+            errors += ["Sentence-Kanji", "Sentence-Kana"]
+        if (len(errors) > 0):
+            print("Possible discrepancies in {:d}.ankle".format(self.index))
+        for e in errors:
+            print("---{}".format(self.fields[e]))
 
     @classmethod
     def from_file(cls, filename):
