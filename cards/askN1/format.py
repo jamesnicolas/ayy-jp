@@ -65,10 +65,9 @@ class card():
         # add all present fields
         with open(filename, encoding='utf8') as f:
             for line in f:
+                line = line.rstrip()
                 parts = line.split("#")
                 c.fields[parts[1]] = parts[0]
-                if (len(parts[1]) == 20):
-                    print(parts[1])
         c.special_fields()
         return c
     
