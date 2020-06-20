@@ -7,11 +7,18 @@ format.py reads all the .ankle files, puts them into memory, then processes them
 Files need to be processed sequentially because some of the fields depend on their previous inputs.
 """
 
-ankle = {
-    "Vocabulary-Kanji": {
-        "index":0,
-        "func":"$kanji(Vocabulary-Furigana)"
-    },
+@dataclass
+class field():
+    index: int
+    name: str
+    func: str
+
+fields = [
+    field(
+        0,
+        "Vocabulary-Kanji",
+        "$kanji(Vocabulary-Furigana)",
+    ),
     "Vocabulary-Furigana":{"index":1},
     "Vocabulary-Kana": {
         "index":2,
@@ -36,7 +43,7 @@ ankle = {
     "Show-JJ":{"index":19},
     "Show-JE":{"index":20},
     "Tags":{"index":21},
-}
+]
 
 # get all .ankle files and sort them
 ankles = []

@@ -1,4 +1,7 @@
 import re
+from dataclasses import dataclass
+# patterns adapted from anki source code
+# https://github.com/ankitects/anki/blob/ee27711b65a97ba3db2ec19dcaf99791600d9985/rslib/src/template_filters.rs#L101
 
 def kanji(furigana):
     remove_space = re.sub(' ', '',furigana)
@@ -7,19 +10,47 @@ def kanji(furigana):
     return remove_brackets
 
 def kana(furigana):
-    pattern = r' [^\[]*\['
+    pattern = r' ?([^ >]+?)\['
     remove_kanji = re.sub(pattern, '', furigana)
     remove_closing = re.sub(']', '', remove_kanji)
     return remove_closing
 
-furigana = "身内[みうち]に 医者[いしゃ]がいると、 何[なに]かと 安心[あんしん]だ"
-expected_kana = "みうちにいしゃがいると、なにかとあんしんだ"
-expected_kanji = "身内に医者がいると、何かと安心だ"
+@dataclass
+class testCase():
+    name: str
+    furigana : str
+    expected_kana : str
+    expected_kanji : str
 
-if (kanji(furigana) != expected_kanji):
-    print("Expected {}".format(expected_kanji))
-    print("Got {}".format(kanji(furigana)))
+tests = [
+    testCase(
+        "normal case",
+        "身内[みうち]に 医者[いしゃ]がいると、 何[なに]かと 安心[あんしん]だ",
+        "みうちにいしゃがいると、なにかとあんしんだ",
+        "身内に医者がいると、何かと安心だ",
+    ),
+    testCase(
+        "no ruby",
+        "empty",
+        "empty",
+        "empty",
+    ),
+    testCase(
+        "anki's test",
+        "test first[second] third[fourth]",
+        "testsecondfourth",
+        "testfirstthird",
+    ),
+]
 
-if (kana(furigana) != expected_kana):
-    print("Expected {}".format(expected_kana))
-    print("Got {}".format(kana(furigana)))
+def test():
+    for t in tests:
+        if (kanji(t.furigana) != t.expected_kanji):
+            print("Kanji: case {} failed".format(t.name))
+            print("Kanji: Expected {}".format(t.expected_kanji))
+            print("Kanji: Got {}".format(kanji(t.furigana)))
+
+        if (kana(t.furigana) != t.expected_kana):
+            print("Kana: case {} failed".format(t.name))
+            print("Kana: Expected {}".format(t.expected_kana))
+            print("Kana: Got {}".format(kana(t.furigana)))
