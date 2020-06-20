@@ -33,7 +33,7 @@ with open('{}.ankle'.format(max_num), encoding='utf8') as prev_file:
 
 output = ""
 # generate the new file based on the previous card and the format file
-with open('format.txt', encoding='utf8') as format_file:
+with open('format.anklet', encoding='utf8') as format_file:
     for i, line in enumerate(format_file):
         """
         a line in format.txt looks like
