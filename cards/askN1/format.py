@@ -25,7 +25,7 @@ class card():
         "Vocabulary-Furigana",
         "Vocabulary-Kana",
         "Definition-English",
-        "Definition-Japanese",
+        "Definition-Furigana",
         "Vocabulary-Audio",
         "Vocabulary-Pos",
         "Caution",
@@ -54,7 +54,7 @@ class card():
             "Vocabulary-Audio": "[sound:{:04d}.mp3]".format(self.index),
             "Optimized-Voc-Index": "{:04d}".format(6000 + self.index),
             "Ask-N1-Index": "{:d}".format(self.index),
-            "Show-JJ": "true",
+            "Show-JE": "true",
         }
         self.fields.update(rules)
         self.validate()
@@ -95,8 +95,8 @@ class card():
     #scd is semi-colon delimited format
     def to_scd(self):
         scd = ""
-        for i in self.fields:
-            scd += self.fields[i]
+        for i in card.order:
+            scd += str(self.fields.get(i))
             scd += ";"
         return scd
 
