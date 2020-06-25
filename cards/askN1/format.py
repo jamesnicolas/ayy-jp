@@ -93,13 +93,13 @@ class card():
         for field in self.fields:
             if field["name"] == name:
                 return field
-        return None
+        return ""
 
     #scd is semi-colon delimited format
     def to_scd(self):
         scd = ""
         for i in card.order:
-            scd += str(self.fields.get(i))
+            scd += self.fields.get(i) or ""
             scd += ";"
         return scd
 
