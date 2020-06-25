@@ -18,9 +18,7 @@ for file in glob.glob("*.ankle"):
 fields = {}
 order = []
 with open('{}.ankle'.format(max_num),'r', encoding='utf8') as curr_file:
-    print("going to loop through the file")
     for i, line in enumerate(curr_file):
-        print("reading line: {}",format(line))
         parts = line.split("#")
         field_name = parts[1].rstrip()
         order.append(field_name)
