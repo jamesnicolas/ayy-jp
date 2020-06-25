@@ -20,6 +20,7 @@ class card():
     def __init__(self):
         self.fields = {}
         self.index = 0
+        self.blank = False
     order = [
         "Vocabulary-Kanji",
         "Vocabulary-Furigana",
@@ -84,6 +85,8 @@ class card():
                 parts = line.split("#")
                 c.fields[parts[1]] = parts[0]
         c.special_fields()
+        if (c.fields["Vocabulary-Furigana"] == ""):
+            c.blank = True
         return c
     
     def get_field_by_name(self, name):
@@ -108,9 +111,18 @@ for file in glob.glob("*.ankle"):
 ankles.sort(key=lambda x: x["index"])
 
 # loop through all the .ankle files in order and compile it into deck.txt
+# prune all empty cards
+delete = []
 with open('deck.txt', 'w+', encoding='utf8') as o:
     output = "# J-J cards. This file is auto generated.\n"
     for file in ankles:
-        output += card.from_file(file["name"]).to_scd()
-        output += "\n"
+        c = card.from_file(file["name"])
+        if (c.blank):
+            delete.append(file["name"])
+            continue
+        else:
+            output += c.to_scd()
+            output += "\n"
     o.write(output)
+for i in delete:
+    os.remove(i)
