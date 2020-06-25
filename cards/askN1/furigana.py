@@ -17,16 +17,20 @@ for file in glob.glob("*.ankle"):
 
 fields = {}
 order = []
-with open('{}.ankle'.format(max_num),'w+', encoding='utf8') as curr_file:
+with open('{}.ankle'.format(max_num),'r', encoding='utf8') as curr_file:
+    print("going to loop through the file")
     for i, line in enumerate(curr_file):
-        parts = line.split("#").rstrip()
-        order.append(parts[1])
-        if parts[1] in ["Vocabulary-Furigana", "Sentence-Furigana", "Definition-Furigana"]:
-            fields[parts[1]] = mecab.reading(parts[0])
+        print("reading line: {}",format(line))
+        parts = line.split("#")
+        field_name = parts[1].rstrip()
+        order.append(field_name)
+        if field_name in ["Vocabulary-Furigana", "Sentence-Furigana", "Definition-Furigana"]:
+            fields[field_name] = mecab.reading(parts[0])
         else:
-            fields[parts[1]] = parts[0]
-    
+            fields[field_name] = parts[0]
+
+with open('{}.ankle'.format(max_num),'w', encoding='utf8') as curr_file:
     output = ""
-    for i in order:
-        output += "{}#{}\n".format(i,fields[i])
+    for i, v in enumerate(order):
+        output += "{}#{}{}".format(fields[v],v,"\n" if i < len(order)-1 else "")
     curr_file.write(output)
