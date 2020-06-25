@@ -1,4 +1,6 @@
 import re
+import sys, os, re, subprocess
+import pykakasi
 from dataclasses import dataclass
 # patterns adapted from anki source code
 # https://github.com/ankitects/anki/blob/ee27711b65a97ba3db2ec19dcaf99791600d9985/rslib/src/template_filters.rs#L101
