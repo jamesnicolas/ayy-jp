@@ -24,5 +24,4 @@ else:
     print("Shift by is 0")
     exit(1)
 for i in ankles:
-    #os.rename("{}.ankle".format(i),"{}.ankle".format(i+shift_by))
-    print("{}.ankle".format(i),"{}.ankle".format(i+shift_by))
+    os.rename("{}.ankle".format(i),"{}.ankle".format(i+shift_by))
