@@ -74,7 +74,7 @@
 まなざし;まなざし;まなざし;a look;;[sound:0093.mp3];名;;彼からの熱いまなざしを感じた;彼[かれ]からの 熱[あつ]いまなざしを 感[かん]じた;かれからのあついまなざしをかんじた;I felt him giving staring hotly at me.;;;;;;6093;93;;true;askn1;
 直感;直感[ちょっかん];ちょっかん;instinct;;[sound:0094.mp3];名;;初めて会ってときに、結婚すると直感した;初[はじ]めて 会[あ]ってときに、 結婚[けっこん]すると 直感[ちょっかん]した;はじめてあってときに、けっこんするとちょっかんした;I knew I was going to marry him when I first met him.;;;;;;6094;94;;true;askn1;
 告白;告白[こくはく];こくはく;confession;;[sound:0095.mp3];名;;好きな気持ちを彼になかなか告白できない;好[す]きな 気持[きも]ちを 彼[かれ]になかなか 告白[こくはく]できない;すきなきもちをかれになかなかこくはくできない;I just can't confess my feelings for him;;;;;;6095;95;;true;askn1;
-受け止める(2);受け止[うけと]める( 2);うけとめる( 2);accept;;[sound:0096.mp3];動;not catch a ball;彼女は僕の告白をしっかり受け止めてくれた;彼女[かのじょ]は 僕[ぼく]の 告白[こくはく]をしっかり 受け止[うけと]めてくれた;かのじょはぼくのこくはくをしっかりうけとめてくれた;She strongly accepted my declaration of love;;;;;;6096;96;;true;askn1;
+受け止める(2);受け止[うけと]める(2);うけとめる(2);accept;;[sound:0096.mp3];動;not catch a ball;彼女は僕の告白をしっかり受け止めてくれた;彼女[かのじょ]は 僕[ぼく]の 告白[こくはく]をしっかり 受け止[うけと]めてくれた;かのじょはぼくのこくはくをしっかりうけとめてくれた;She strongly accepted my declaration of love;;;;;;6096;96;;true;askn1;
 一筋;一筋[ひとすじ];ひとすじ;single-hearted;;[sound:0098.mp3];名;;付き合い始めてから彼女一筋だ;付き合[つきあ]い 始[はじ]めてから 彼女[かのじょ] 一筋[ひとすじ]だ;つきあいはじめてからかのじょひとすじだ;I've only had eyes for her since we started dating;;;;;;6098;98;;true;askn1;
 育む;育[はぐく]む;はぐくむ;nurtuer;;[sound:0099.mp3];動;;遠くに住んでも、二人は愛を育んでいる。;遠[とお]くに 住[す]んでも、 二人[ふたり]は 愛[あい]を 育[はぐく]んでいる。;とおくにすんでも、ふたりはあいをはぐくんでいる。;We live far apart, but we are nurturing the love between us.;;;;;;6099;99;;true;askn1;
 のろける;のろける;のろける;brag;;[sound:0100.mp3];動;;親友はいつも恋人のことをのろけている;親友[しんゆう]はいつも 恋人[こいびと]のことをのろけている;しんゆうはいつもこいびとのことをのろけている;My best friend is always bragging about his girlfriend;;;;;;6100;100;;true;askn1;
@@ -93,7 +93,7 @@
 未練;未練[みれん];みれん;lingering affection;;[sound:0114.mp3];名;;別れた彼に少しも未練はない;別[わか]れた 彼[かれ]に 少[すこ]しも 未練[みれん]はない;わかれたかれにすこしもみれんはない;I have no feelings left for my ex husband;;;;;;6114;114;;true;askn1;
 ぽっかる;ぽっかる;ぽっかる;gaping;;[sound:0115.mp3];副;;振られてから心にぽっかる穴が空いたままだ;振[ふ]られてから 心[こころ]にぽっかる 穴[あな]が 空[あ]いたままだ;ふられてからこころにぽっかるあながあいたままだ;I feel empty inside after being dumped;;;;;;6115;115;;true;askn1;
 誠意;誠意[せいい];せいい;sincerity;;[sound:0117.mp3];名;;彼はいつも素直に誠意を示してくれる;彼[かれ]はいつも 素直[すなお]に 誠意[せいい]を 示[しめ]してくれる;かれはいつもすなおにせいいをしめしてくれる;He is always very truthful;;;;;;6117;117;;true;askn1;
-なれそめ;なれそめ;なれそめ;start of a romance;;[sound:0118.mp3];名;;二人のなれそめボランティア活動だった;二 人[にん]のなれそめ ボランティア活動[ぼらんてぃあかつどう]だった;二にんのなれそめぼらんてぃあかつどうだった;The two met when doing volunteer activity;;;;;;6118;118;;true;askn1;
+なれそめ;なれそめ;なれそめ;start of a romance;;[sound:0118.mp3];名;;二人のなれそめボランティア活動だった;二人[ふたり]のなれそめ ボランティア活動[ぼらんてぃあかつどう]だった;ふたりのなれそめぼらんてぃあかつどうだった;The two met when doing volunteer activity;;;;;;6118;118;;true;askn1;
 縁談;縁談[えんだん];えんだん;arranging marriage;;[sound:0119.mp3];名;;親戚がいい縁談をもってきてくれた;親戚[しんせき]がいい 縁談[えんだん]をもってきてくれた;しんせきがいいえんだんをもってきてくれた;My relative offered to arrange marriage for me;;;;;;6119;119;;true;askn1;
 ゴールイン;ゴールイン;ゴールイン;tie the knot;;[sound:0120.mp3];名;;長年愛を育み、二人はゴールインした;長年[ながねん] 愛[あい]を 育[はぐく]み、 二人[ふたり]はゴールインした;ながねんあいをはぐくみ、ふたりはゴールインした;The two tied the knot after years of being together;;;;;;6120;120;;true;askn1;
 日取り;日取[ひど]り;ひどり;date;;[sound:0121.mp3];名;;結婚式の日取りを大安の日に決めた;結婚式[けっこんしき]の 日取[ひど]りを 大安[たいあん]の 日[ひ]に 決[き]めた;けっこんしきのひどりをたいあんのひにきめた;The two decided the date of their marriage to be on a tai-an good luck date;;;;;;6121;121;;true;askn1;
