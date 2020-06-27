@@ -6,14 +6,20 @@ import subprocess
 import time
 
 mecab = MecabController()
-
-# get latest .ankle file number
-ankles = []
 max_num = 0
-for file in glob.glob("*.ankle"):
-    num = int(file.split(".")[0])
-    if num > max_num:
-        max_num = num
+try:
+    max_num = int(sys.argv[1])
+except Exception as e:
+    pass
+if max_num == 0:
+    # get latest .ankle file number
+    ankles = []
+    max_num = 0
+    for file in glob.glob("*.ankle"):
+        num = int(file.split(".")[0])
+        if num > max_num:
+            max_num = num
+    
 
 fields = {}
 order = []
