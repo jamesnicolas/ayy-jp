@@ -3,6 +3,7 @@ import sys
 import glob
 import subprocess
 import time
+from datetime import datetime
 
 ops = {
     "$inc":lambda x: str(int(x)+1),
@@ -19,10 +20,16 @@ def op(f, x):
 # get latest .ankle file number
 ankles = []
 max_num = 0
-for file in glob.glob("*.ankle"):
-    num = int(file.split(".")[0])
+lastest_file = ""
+for f in glob.glob("*.ankle"):
+    num = int(f.split(".")[0])
     if num > max_num:
         max_num = num
+        latest_file = f
+
+last_file_creation_time = datetime.fromtimestamp(os.path.getctime(latest_file))
+time_since_last_card = datetime.now() - last_file_creation_time
+print("Card took {:d}.{:03d}s to make".format(time_since_last_card.seconds, time_since_last_card.microseconds//1000))
 
 # store fields of previous card so we can possibly perform operations on it
 prev_fields = {}
