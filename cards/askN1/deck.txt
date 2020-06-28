@@ -69,7 +69,7 @@
 一目惚れ;一目惚[ひとめぼ]れ;ひとめぼれ;love at first sight;;[sound:0086.mp3];名;;弟が電車の中で初めて会って人に一目惚れした;弟[おとうと]が 電車[でんしゃ]の 中[なか]で 初[はじ]めて 会[あ]って 人[ひと]に 一目惚[ひとめぼ]れした;おとうとがでんしゃのなかではじめてあってひとにひとめぼれした;My younger brother fell in love at first sight with someone he met on the train.;;;;;;6086;86;;true;askn1;
 引かれる;引[ひ]かれる;ひかれる;attracted;;[sound:0089.mp3];動;;兄は彼女の優しさに引かれたそうだ。;兄[あに]は 彼女[かのじょ]の 優[やさ]しさに 引[ひ]かれたそうだ。;あにはかのじょのやさしさにひかれたそうだ。;My older brother says he was attracted to her kindness.;;;;;;6089;89;;true;askn1;
 気がある;気[き]がある;きがある;have the hots for;;[sound:0090.mp3];慣;;あの子は僕気があるようだ;あの 子[こ]は 僕[ぼく] 気[き]があるようだ;あのこはぼくきがあるようだ;She seems to have the hots for me;;;;;;6090;90;;true;askn1;
-まんざら;まんざら;まんざら;;;[sound:0091.mp3];;;彼女も彼のことをまんざら嫌いでもないようだ;彼女も彼のことをまんざら嫌いでもないようだ;彼女も彼のことをまんざら嫌いでもないようだ;;;;;;;6091;91;;true;askn1;
+まんざら;まんざら;まんざら;pretty much;;[sound:0091.mp3];;;彼女も彼のことをまんざら嫌いでもないようだ;彼女も彼のことをまんざら嫌いでもないようだ;彼女も彼のことをまんざら嫌いでもないようだ;She seems to have feelings for him too;;;;;;6091;91;;true;askn1;
 赤らめる;赤[あか]らめる;あからめる;blush;;[sound:0092.mp3];動;;彼女のことを見つめたら、頬を赤らめて微笑んだ;彼女[かのじょ]のことを 見[み]つめたら、 頬[ほお]を 赤[あか]らめて 微笑[ほほえ]んだ;かのじょのことをみつめたら、ほおをあからめてほほえんだ;When I glanced at her, she blushed and smiled;;;;;;6092;92;;true;askn1;
 まなざし;まなざし;まなざし;a look;;[sound:0093.mp3];名;;彼からの熱いまなざしを感じた;彼[かれ]からの 熱[あつ]いまなざしを 感[かん]じた;かれからのあついまなざしをかんじた;I felt him giving staring hotly at me.;;;;;;6093;93;;true;askn1;
 直感;直感[ちょっかん];ちょっかん;instinct;;[sound:0094.mp3];名;;初めて会ってときに、結婚すると直感した;初[はじ]めて 会[あ]ってときに、 結婚[けっこん]すると 直感[ちょっかん]した;はじめてあってときに、けっこんするとちょっかんした;I knew I was going to marry him when I first met him.;;;;;;6094;94;;true;askn1;
@@ -112,3 +112,11 @@
 こじれる;こじれる;こじれる;get complicated, get worse;;[sound:0135.mp3];動;;話がこじれて、関係の改善は難しい状況だ;話[はなし]がこじれて、 関係[かんけい]の 改善[かいぜん]は 難[むずか]しい 状況[じょうきょう]だ;はなしがこじれて、かんけいのかいぜんはむずかしいじょうきょうだ;The situation worsened, and it appears to be difficult to improve the relationship;;;;;;6135;135;;true;askn1;
 けなす;けなす;けなす;trash, talk bad about;;[sound:0136.mp3];動;;一方的に相手をけなしても、何の得にもならない;一方[いっぽう] 的[てき]に 相手[あいて]をけなしても、 何[なに]の 得[とく]にもならない;いっぽうてきにあいてをけなしても、なにのとくにもならない;No bood comes from tashing others one-sidedly;;;;;;6136;136;;true;askn1;
 罵る;罵[ののし]る;ののしる;curse;;[sound:0137.mp3];動;;大統領候補者が選挙演説で相手を罵った;大統領候補[だいとうりょうこうほ] 者[しゃ]が 選挙[せんきょ] 演説[えんぜつ]で 相手[あいて]を 罵[ののし]った;だいとうりょうこうほしゃがせんきょえんぜつであいてをののしった;The presidential candidate cursed at her opponent during a campaign speech;;;;;;6137;137;;true;askn1;
+陰口;陰口[かげぐち];かげぐち;talking behid someone's back;;[sound:0138.mp3];名;;苦情は陰口ではなく、本人に言うべきだ;苦情[くじょう]は 陰口[かげぐち]ではなく、 本人[ほんにん]に 言[い]うべきだ;くじょうはかげぐちではなく、ほんにんにいうべきだ;Complaints should be made in person, not behind the other person's back;;;;;;6138;138;;true;askn1;
+絡む;絡[から]む;からむ;involve/pester/tangle;;[sound:0139.mp3];動;;トラブルにお金の問題が絡むと、解決が難しい;トラブルにお 金[かね]の 問題[もんだい]が 絡[から]むと、 解決[かいけつ]が 難[むずか]しい;トラブルにおかねのもんだいがからむと、かいけつがむずかしい;When a situation involves money, it is difficult to resolve;;;;;;6139;139;;true;askn1;
+震わせる;震[ふる]わせる;ふるわせる;shake;;[sound:0141.mp3];動;;怒りに声を震わせて、相手に言い返した;怒[いか]りに 声[こえ]を 震[ふる]わせて、 相手[あいて]に 言い返[いいかえ]した;いかりにこえをふるわせて、あいてにいいかえした;Shaking with anger, I retorted to the other person.;;;;;;6141;141;;true;askn1;
+人目;人目[ひとめ];ひとめ;public eye;;[sound:0142.mp3];名;;母はいつも人目を気にしている;母[はは]はいつも 人目[ひとめ]を 気[き]にしている;はははいつもひとめをきにしている;My mother is always worried about how people see herc;;;;;;6142;142;;true;askn1;
+意地;意地[いじ];いじ;stubbornness/meannness;;[sound:0143.mp3];名;;二人ともいじがあって、互いに謝れなかった;二人[ふたり]ともいじがあって、 互[たが]いに 謝[あやま]れなかった;ふたりともいじがあって、たがいにあやまれなかった;;;;;;;6143;143;;true;askn1;
+なだめる;なだめる;なだめる;calm down;;[sound:0144.mp3];動;;彼が感情的になったら、誰もなだめることはできない;彼[かれ]が 感情的[かんじょうてき]になったら、 誰[だれ]もなだめることはできない;かれがかんじょうてきになったら、だれもなだめることはできない;No one can calm him down once he gets emotional;;;;;;6144;144;;true;askn1;
+開き直る;開き直[ひらきなお]る;ひらきなおる;defiant;;[sound:0145.mp3];動;;みんなに行動を非難されると、彼は開き直った;みんなに 行動[こうどう]を 非難[ひなん]されると、 彼[かれ]は 開き直[ひらきなお]った;みんなにこうどうをひなんされると、かれはひらきなおった;He became defiant when everyone criticized his actions;;;;;;6145;145;;true;askn1;
+割り切る;割り切[わりき]る;わりきる;have no illusion about;;[sound:0147.mp3];動;;嫌なことでも仕事と割り切ってやるしかない;嫌[いや]なことでも 仕事[しごと]と 割り切[わりき]ってやるしかない;いやなことでもしごととわりきってやるしかない;I think of it as part of the job and do things I don't want to do.;;;;;;6147;147;;true;askn1;
