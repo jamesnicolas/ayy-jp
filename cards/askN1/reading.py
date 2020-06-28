@@ -103,9 +103,9 @@ class MecabController(object):
                 out.append(kanji)
                 continue
             # don't add readings of numbers
-            if kanji in u"一二三四五六七八九十０１２３４５６７８９":
-                out.append(kanji)
-                continue
+            #if kanji in u"一二三四五六七八九十０１２３４５６７８９":
+            #    out.append(kanji)
+            #    continue
             # strip matching characters and beginning and end of reading and kanji
             # reading should always be at least as long as the kanji
             placeL = 0
