@@ -202,7 +202,7 @@
                         "volume": 100,
                         "autoPlay": true,
                         "customSourceUrl": "http://localhost:8770/?expression={expression}&reading={reading}",
-                        "textToSpeechVoice": "Microsoft Nanami Online (Natural) - Japanese (Japan)",
+                        "textToSpeechVoice": "",
                         "customSourceType": "json"
                     },
                     "scanning": {
@@ -878,13 +878,14 @@
                         "enabled": true,
                         "sources": [
                             "jpod101",
-                            "text-to-speech-reading"
+                            "jpod101-alternate",
+                            "custom"
                         ],
                         "volume": 100,
-                        "autoPlay": false,
-                        "customSourceUrl": "",
-                        "textToSpeechVoice": "Microsoft Nanami Online (Natural) - Japanese (Japan)",
-                        "customSourceType": "audio"
+                        "autoPlay": true,
+                        "customSourceUrl": "http://localhost:8770/?expression={expression}&reading={reading}",
+                        "textToSpeechVoice": "",
+                        "customSourceType": "json"
                     },
                     "scanning": {
                         "touchInputEnabled": true,
